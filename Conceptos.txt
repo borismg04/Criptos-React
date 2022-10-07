@@ -1,0 +1,7 @@
+Styles Components 
+
+Que son los Styled Components en React:
+    En JSX podmos utilizar HTML con expresiones JavaScript,pero tambien es posible crear un elemento HTML 
+    con la Syntaxis de un Componente y añadir propiedades CSS.
+
+Ventaja es reutilizar los estilos CSS en los componentes    
