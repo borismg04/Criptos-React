@@ -5,3 +5,16 @@ Que son los Styled Components en React:
     con la Syntaxis de un Componente y añadir propiedades CSS.
 
 Ventaja es reutilizar los estilos CSS en los componentes    
+
+Ventaja de crear los propios Hooks
+  La mayoria de los casos es mejor crear Hooks propis , una de las razones es para poder 
+  reutilizarlos en una funcion
+
+  Aunque,tambien se peude crear un funcion helper,pero existe otra gran ventaja de crear 
+  los propios Hooks y es la forma de incorporar State y mantener el valor 
+  de una funcion de forma persistente
+
+  El codigo personalizado tendra todas las vetnajas de React con son:
+    State
+    effects
+    Integracion de otros hooks y el performance
