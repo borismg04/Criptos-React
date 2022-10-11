@@ -15,7 +15,7 @@ const InputSubmit = styled.input`
   border-radius: 10px;
   font-family: 'Lato', sans-serif;
   transition: background-color .3s ease;
-  margin-top: 20px;
+  margin-top: 30px;
   &:hover {
     background-color: #326AC0;
     cursor: pointer;
@@ -24,7 +24,7 @@ const InputSubmit = styled.input`
 
 const Formulario = () => {
 
-  const [SelectMonedas] = useSelectMonedas('Elige tu Moneda',monedas);
+  const [moneda, SelectMonedas] = useSelectMonedas('Elige tu Moneda',monedas);
 
   SelectMonedas();
 

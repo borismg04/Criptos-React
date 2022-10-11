@@ -18,3 +18,11 @@ Ventaja de crear los propios Hooks
     State
     effects
     Integracion de otros hooks y el performance
+
+Que es una API 
+  API = Application Programming Interface
+
+Son funciones, metodos que ofrece una libreria para ser utilizada por otro Software 
+como una capa de abstracción
+
+Una API pone adisposicion recursos que estan alojados en otro servidor o Bases de Datos
