@@ -25,4 +25,13 @@ Que es una API
 Son funciones, metodos que ofrece una libreria para ser utilizada por otro Software 
 como una capa de abstracción
 
-Una API pone adisposicion recursos que estan alojados en otro servidor o Bases de Datos
+Una API pone a disposicion recursos que estan alojados en otro servidor o Bases de Datos.
+
+Usualmente se tiene que enviar una peticion estructurada.
+
+Al ser React una libreria que corre en el cliente, no puede consultar una base de datos, por lo tanto una API
+es la forma de obtener datos de un servidor
+
+La API puede ser creada en cualquier lenguaje o framewrok JS, Java , Python etc......
+
+Para ello debera entregar una respeusta tipo JSON
