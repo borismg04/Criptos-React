@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import styled from '@emotion/styled'
+import Spinner from './Components/Spinner'
 import ImagenCripto from './img/imagen-criptos.png'
 import Formulario from './Components/Formulario'
 import Resultado from './Components/Resultado'
@@ -74,7 +75,7 @@ function App() {
         <Formulario 
           setMonedas={setMonedas}
         />
-      {cargando && <p>Cargando...</p>}
+      {cargando && <Spinner />}
       {resultado.PRICE && <Resultado resultado={resultado}/>}
       </div>
     </Contenedor>
